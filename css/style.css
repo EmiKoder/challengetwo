@@ -2,6 +2,33 @@
   box-sizing: border-box;
 }
 
+
+.hero-banner {
+  background: white;
+  height: 100px;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.portfolio1 {
+background-image: url(../images/02-portfolio-1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.hero-banner{
+color: white;
+
+}
+
+.text {
+  background: rgb(0,0,0,0.7);
+  width:100%;
+  padding: 20px 40px;
+  color: white;
+}
+
 body {
   margin: 0;
   padding: 0;
