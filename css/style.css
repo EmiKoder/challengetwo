@@ -17,6 +17,37 @@ background-repeat: no-repeat;
 background-position: center;
 }
 
+#work {
+display: flex;
+
+}
+
+#contact {
+display:flex;
+
+}
+
+.portfolio2 {
+display:flex;
+justify-content: center;
+background-image: url(../images/02-portfolio-2.jpg) ;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.portfolio3 {
+background-image: url(../images/02-portfolio-3.jpg) ;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.portfolio4 {
+background-image: url(../images/02-portfolio-4.jpg) ;
+background-repeat: no-repeat;
+background-position: center;
+}
+
 .hero-banner{
 color: white;
 
@@ -34,10 +65,11 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: rgb(215, 224, 247);
 }
 .container{
-display: grid;
-grid-template-columns: 25% 75%;
+display: flex;
+flex-direction: column;
 
 }
 
